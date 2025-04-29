@@ -9,22 +9,6 @@ This project combines [Wazuh](https://github.com/wazuh/wazuh-docker) and [Ollama
 - ✅ Integration visible via Wazuh Dashboard UI.
 
 
-## 🗂 Project Structure
-wazuh-ollama-ai-integration/
-├── 📂 wazuh-docker
-│   └── 📂 single-node
-│       ├-- 📄 docker-compose.yml
-│       ├-- 📄 ossec.conf
-│       ├--📂 rules
-│       │   └── 📄 local_rules.xml
-│       └-- 📂 active-response
-│           └── 📂 bin
-│               └── 📄 ai-escalate.py
-├── 📄 README.md
-├── 📄 .gitignore
-└── 📄 requirements.txt
-
-
 ## ⚙️ Requirements
 - Docker + Docker Compose
 - Python 3 inside the Wazuh container

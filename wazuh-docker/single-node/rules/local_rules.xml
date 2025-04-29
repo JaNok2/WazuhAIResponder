@@ -1,0 +1,6 @@
+<group name="local,ai_escalated">
+  <rule id="900100" level="14">
+    <description>Escalated by AI</description>
+    <match>Escalate</match>
+  </rule>
+</group>
